@@ -1,5 +1,9 @@
-# AUREON updates
+# AUREON downloads and updates
 
-This repository distributes signed AUREON installers and updater metadata only. Application source and personal data are not published here.
+[Download the latest Mac and Windows release](https://github.com/Callum-Luxford/aureon-updates/releases/latest).
 
-Download a release from the Releases page. An initial install of 0.3.2 or later enables automatic update checks and owner-controlled installation.
+- **Windows x64:** choose `AUREON_<version>_x64-setup.exe`, close AUREON and run the installer.
+- **Apple Silicon Mac:** choose `AUREON_<version>_aarch64.dmg` and install AUREON in Applications.
+- **Already installed:** open Settings → Check for updates → Install update. Saved data stays in the operating system application-data folder.
+
+This repository distributes updater-signed preview installers and update metadata only. Application source, personal records and credentials are private. Developer ID/notarisation and Windows Authenticode remain pending; updater signatures authenticate update payloads.
